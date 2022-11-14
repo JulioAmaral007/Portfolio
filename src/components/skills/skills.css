@@ -1,113 +1,106 @@
 .skills {
-    height: 100vh;
-  
+  height: 100vh;
 }
 #title-skills {
-    border-bottom: 2px solid rgb(61, 106, 255);
-
+  border-bottom: 2px solid rgb(61, 106, 255);
 }
 .skills h1 {
-    margin-bottom: 50px;
-    color:#fff;
-    font-size: 40px;
+  margin-bottom: 50px;
+  color: #fff;
+  font-size: 40px;
 }
 .skills .box-grid-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 15px;
-    
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
 }
 
 .skills .box-grid-2 span {
-    color: #fff;
-    font-size: 20px;
-    font-weight:500;
-    
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .skills .box-skills {
-    background-color: rgb(29, 29, 29);
-    padding: 5rem 8rem;
-    height: 29rem;
-    border-radius: 12px;
-    gap: 30px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid rgb(29, 29, 29);
-    transition: all  ease-out .4s;
+  background-color: rgb(29, 29, 29);
+  padding: 5rem 8rem;
+  height: 29rem;
+  border-radius: 12px;
+  gap: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(29, 29, 29);
+  transition: all ease-out 0.4s;
 }
 .skills .box-skills:hover {
-    background: transparent;
-    border: 1px solid  rgb(61, 106, 255)
+  background: transparent;
+  border: 1px solid rgb(61, 106, 255);
 }
-.skills .box-skills h1{
-    font-size: 22px;
-    color: rgb(80, 156, 255)
+.skills .box-skills h1 {
+  font-size: 22px;
+  color: rgb(80, 156, 255);
 }
 .skills .box-skills .experience {
-   
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
-    column-gap: 3rem;
-    
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+  column-gap: 3rem;
 }
 
 .skills .language span {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 .skills .language svg {
-    color: rgb(0, 166, 255);
+  color: rgb(0, 166, 255);
 }
 
 .skills #beginner {
-    color: rgb(169, 168, 168);
-    font-size: 12px;
-    margin-left: 30px;
-    font-weight: 200;
+  color: rgb(169, 168, 168);
+  font-size: 12px;
+  margin-left: 30px;
+  font-weight: 200;
 }
 /* Media Queries */
-@media(max-width: 1200px) {
-    .skills .box-skills {
-        padding: 3rem 6rem;
-    }
+@media (max-width: 1200px) {
+  .skills .box-skills {
+    padding: 3rem 6rem;
+  }
 }
-@media(max-width: 1100px) {
-    .skills .box-skills {
-        padding: 2rem 3rem;
-    }
+@media (max-width: 1100px) {
+  .skills .box-skills {
+    padding: 2rem 3rem;
+  }
 }
-@media(max-width: 900px) {
-    .skills .box-skills {
-        padding: 2rem 2rem;
-    }
+@media (max-width: 900px) {
+  .skills .box-skills {
+    padding: 2rem 2rem;
+  }
 }
-@media(max-width: 970px) {
-    .skills {
-        margin-top: 50px;
-    }
-    .skills .box-grid-2 {
-        grid-template-columns: 1fr ;
-    }
-    .skills .box-skills {
-        padding: 2rem 3rem;
-    }
+@media (max-width: 970px) {
+  .skills {
+    margin-top: 50px;
+  }
+  .skills .box-grid-2 {
+    grid-template-columns: 1fr;
+  }
+  .skills .box-skills {
+    padding: 2rem 3rem;
+  }
 }
-@media(max-width: 500px) {
-    .skills .box-skills {
-        padding: 1.25rem 2.25rem;
-    }
+@media (max-width: 500px) {
+  .skills .box-skills {
+    padding: 1.25rem 2.25rem;
+  }
 }
-@media(max-width: 440px) {
-    .skills .box-skills {
-        padding: 0.5rem 1rem;
-        height: 25rem;
-    }
-    .skills .box-skills span {
-        font-size: 17px;
-    }
+@media (max-width: 440px) {
+  .skills .box-skills {
+    padding: 0.5rem 1rem;
+    height: 25rem;
+  }
+  .skills .box-skills span {
+    font-size: 17px;
+  }
 }

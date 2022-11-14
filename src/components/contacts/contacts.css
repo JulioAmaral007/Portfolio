@@ -1,195 +1,189 @@
 .contacts {
-    margin-top: 20rem;
-    display: flex;
-    flex-direction: column;;
-    height: 100%;
-    position: relative;
-   padding-bottom: 5rem;
-    align-items: center;
-    background-color: #3586FF; 
+  margin-top: 20rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  padding-bottom: 5rem;
+  align-items: center;
+  background-color: #3586ff;
 }
 .container-contact {
-   
-    display: flex;
-    gap: 30px;
-    align-items: center;
+  display: flex;
+  gap: 30px;
+  align-items: center;
 }
- h4 {
-    color: rgb(255, 255, 255);
-    font-weight: 700;
-    margin-bottom: 30px;
+h4 {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  margin-bottom: 30px;
 }
 form {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 form input {
-    padding: 0.5rem;
-    outline: none;
-    border: none;
-    border-radius: 4px;
-    height :64px;
-    width: 100%;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  height: 64px;
+  width: 100%;
 }
 form textarea {
-    padding: 0.5rem;
-    outline: none;
-    border-radius: 4px;
+  padding: 0.5rem;
+  outline: none;
+  border-radius: 4px;
 }
 form .button-form {
-    background-color: rgba(0, 94, 255, 0.894);;
-    outline: 0;
-    border: none;
-    border-radius: 4px;
-    height: 46px;
-    color: white;
-    cursor: pointer;
-    font-weight: bold;
-    transition: all ease 0.3s;
+  background-color: rgba(0, 94, 255, 0.894);
+  outline: 0;
+  border: none;
+  border-radius: 4px;
+  height: 46px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all ease 0.3s;
 }
 form .button-form:hover {
-    filter: brightness(90%)
+  filter: brightness(90%);
 }
 
-
 .contacts h1 {
-    margin-bottom: 80px;
-    font-size: 40px;
-    color:#Fff;
-    border-bottom: 2px solid rgb(255, 255, 255);
+  margin-bottom: 80px;
+  font-size: 40px;
+  color: #fff;
+  border-bottom: 2px solid rgb(255, 255, 255);
 }
 
 .box-links {
-   
-    width: 100vh;
-    gap: 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    
+  width: 100vh;
+  gap: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .lnk {
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(255, 255, 255);
 }
 .lnk svg {
-    border: 1px solid rgb(255, 255, 255);
-    padding: 5px;
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    transition: all ease-in-out .4s;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 5px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  transition: all ease-in-out 0.4s;
 }
 .lnk svg:hover {
-    transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 .lnk a {
-    color: white;
-    font-size: 14px;
-    
+  color: white;
+  font-size: 14px;
 }
 
 #copy {
-    color: white  ;
-    font-size: 12px;
-    
+  color: white;
+  font-size: 12px;
 }
 
 .contacts .wave {
-    position: absolute;
-    background: url('../../utils/imgs/wave.webp');
-    height: 100px;
-    width:100%;
-    top: -100px;
-    left: 0;
-    background-size: 1000px 100px;
-    
-    
+  position: absolute;
+  background: url("../../utils/imgs/wave.webp");
+  height: 100px;
+  width: 100%;
+  top: -100px;
+  left: 0;
+  background-size: 1000px 100px;
 }
 .contacts .wave#wave1 {
-    z-index: 1000;
-    opacity: 1;
-    bottom: 0;
-    animation: animateWave 4s linear infinite
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWave 4s linear infinite;
 }
 .contacts .wave#wave2 {
-    z-index: 999;
-    opacity: 0.5;
-    bottom: 10px;
-    animation: animateWave_02 4s linear infinite
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animateWave_02 4s linear infinite;
 }
 
 .contacts .wave#wave3 {
-    z-index: 1000;
-    opacity: 0.2;
-    bottom: 15px;
-    animation: animateWave 3s linear infinite
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWave 3s linear infinite;
 }
 .contacts .wave#wave4 {
-    z-index: 999;
-    opacity: 0.7;
-    bottom: 20px;
-    animation: animateWave_02 3s linear infinite
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animateWave_02 3s linear infinite;
 }
 
 @keyframes animateWave {
-    0%{
-        background-postion-x: 0px
-    }
-    100%{
-        background-position-x: 1000px;
-    }
+  0% {
+    background-postion-x: 0px;
+  }
+  100% {
+    background-position-x: 1000px;
+  }
 }
 @keyframes animateWave_02 {
-    0%{
-        background-postion-x: 0px
-    }
-    100%{
-        background-position-x: -1000px;
-    }
+  0% {
+    background-postion-x: 0px;
+  }
+  100% {
+    background-position-x: -1000px;
+  }
 }
 /* Media Queries */
 
-@media(max-width: 1200px) {
-    .box-links {
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
-    }
+@media (max-width: 1200px) {
+  .box-links {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
 }
-@media(max-width: 1150px) {
-    .box-links {width: 80vh;}
-   form{
+@media (max-width: 1150px) {
+  .box-links {
+    width: 80vh;
+  }
+  form {
     width: 80%;
-   }
+  }
 }
 
-@media(max-width: 1000px) {
-    .box-links {width: 60vh;}
-    form{
-     width: 60%;
-    }
+@media (max-width: 1000px) {
+  .box-links {
+    width: 60vh;
+  }
+  form {
+    width: 60%;
+  }
 }
-@media(max-width: 900px) {
-    .contacts {
-        height: 100%;
-    }
-    form{
-        width: 90%;
-       }
-    .container-contact {
-        flex-direction: column;
-    }
+@media (max-width: 900px) {
+  .contacts {
+    height: 100%;
+  }
+  form {
+    width: 90%;
+  }
+  .container-contact {
+    flex-direction: column;
+  }
 }
-@media(max-width: 500px) {
-   
-    .box-links {
-        width: 80%;
-    }
-    form{
-        width: 80%;
-       }
+@media (max-width: 500px) {
+  .box-links {
+    width: 80%;
+  }
+  form {
+    width: 80%;
+  }
 }

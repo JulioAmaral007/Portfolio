@@ -52,6 +52,13 @@ const Skills = () => {
                     <MdOutlineVerified /> REACTJS
                   </span>
                 </div>
+                <div className="tailwind language">
+                  <span>
+                    {" "}
+                    <MdOutlineVerified /> TailwindCSS
+                  </span>
+                  <span id="beginner">Beginner</span>
+                </div>
                 <div className="typescript language">
                   <span>
                     {" "}
@@ -70,20 +77,6 @@ const Skills = () => {
                   <span>
                     {" "}
                     <MdOutlineVerified /> NODEJS
-                  </span>
-                  <span id="beginner">Beginner</span>
-                </div>
-                <div className="mongodb language">
-                  <span>
-                    {" "}
-                    <MdOutlineVerified /> MongoDB
-                  </span>
-                  <span id="beginner">Beginner</span>
-                </div>
-                <div className="python language">
-                  <span>
-                    {" "}
-                    <MdOutlineVerified /> Python
                   </span>
                   <span id="beginner">Beginner</span>
                 </div>

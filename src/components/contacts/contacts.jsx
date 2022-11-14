@@ -88,48 +88,48 @@ const Contacts = () => {
 
             <div className="box-links">
               <div className="email lnk">
-                <a href="mailto:maycondouglaszzlk@gmail.com">
+                <a href="mailto:jczrpereira77@gmail.com">
                   <HiOutlineMail />
                 </a>
                 <span>E-MAIL</span>
-                <a href="mailto:maycondouglaszzlk@gmail.com">
-                  maycondouglaszzlk@gmail.com
+                <a href="mailto:jczrpereira77@gmail.com">
+                  jczrpereira77@gmail.com
                 </a>
               </div>
 
               <div className="telephone lnk">
-                <a target="_blank" href="https://wa.me/+5584981916377">
+                <a target="_blank" href="https://wa.me/+5548996779522">
                   <AiOutlinePhone />
                 </a>
                 <span>TELEFONE</span>
-                <a target="_blank" href="https://wa.me/+5584981916377">
-                  (84) 98191-6377
+                <a target="_blank" href="https://wa.me/+5548996779522">
+                  (48) 99677-9522
                 </a>
               </div>
               <div className="linkedin lnk">
-                <a href="https://www.linkedin.com/in/maycondouglasss/">
+                <a href="https://www.linkedin.com/in/julio-cezar-amaral-pereira-19244b22a/">
                   <GrLinkedinOption />
                 </a>
                 <span>LINKEDIN</span>
                 <a
                   target="_blank"
-                  href="https://www.linkedin.com/in/maycondouglasss/"
+                  href="https://www.linkedin.com/in/julio-cezar-amaral-pereira-19244b22a/"
                 >
-                  @maycondouglasss
+                  @JulioAmaral007
                 </a>
               </div>
               <div className="github lnk">
-                <a target="_blank" href="https://github.com/MayconDS">
+                <a target="_blank" href="https://github.com/JulioAmaral007">
                   <FiGithub />
                 </a>
                 <span>GITHUB</span>
-                <a target="_blank" href="https://github.com/MayconDS">
-                  @mayconds
+                <a target="_blank" href="https://github.com/JulioAmaral007">
+                  @JulioAmaral007
                 </a>
               </div>
             </div>
           </div>{" "}
-          <span id="copy">© Maycon Douglas. All rights reserved.</span>
+          <span id="copy">© JulioAmaral007. All rights reserved.</span>
         </Slide>
       ) : (
         <>
@@ -165,48 +165,48 @@ const Contacts = () => {
 
             <div className="box-links">
               <div className="email lnk">
-                <a href="mailto:maycondouglaszzlk@gmail.com">
+                <a href="mailto:jczrpereira77@gmail.com">
                   <HiOutlineMail />
                 </a>
                 <span>E-MAIL</span>
-                <a href="mailto:maycondouglaszzlk@gmail.com">
-                  maycondouglaszzlk@gmail.com
+                <a href="mailto:jczrpereira77@gmail.com">
+                  jczrpereira77@gmail.com
                 </a>
               </div>
 
               <div className="telephone lnk">
-                <a target="_blank" href="https://wa.me/+5584981916377">
+                <a target="_blank" href="https://wa.me/+5548996779522">
                   <AiOutlinePhone />
                 </a>
                 <span>TELEFONE</span>
-                <a target="_blank" href="https://wa.me/+5584981916377">
-                  (84) 98191-6377
+                <a target="_blank" href="https://wa.me/+5548996779522">
+                  (48) 99677-9522
                 </a>
               </div>
               <div className="linkedin lnk">
-                <a href="https://www.linkedin.com/in/maycondouglasss/">
+                <a href="https://www.linkedin.com/in/julio-cezar-amaral-pereira-19244b22a/">
                   <GrLinkedinOption />
                 </a>
                 <span>LINKEDIN</span>
                 <a
                   target="_blank"
-                  href="https://www.linkedin.com/in/maycondouglasss/"
+                  href="https://www.linkedin.com/in/julio-cezar-amaral-pereira-19244b22a/"
                 >
-                  @maycondouglasss
+                  @JulioAmaral007
                 </a>
               </div>
               <div className="github lnk">
-                <a target="_blank" href="https://github.com/MayconDS">
+                <a target="_blank" href="https://github.com/JulioAmaral007">
                   <FiGithub />
                 </a>
                 <span>GITHUB</span>
-                <a target="_blank" href="https://github.com/MayconDS">
-                  @mayconds
+                <a target="_blank" href="https://github.com/JulioAmaral007">
+                  @JulioAmaral007
                 </a>
               </div>
             </div>
           </div>{" "}
-          <span id="copy">© Maycon Douglas. All rights reserved.</span>
+          <span id="copy">© JulioAmaral007. All rights reserved.</span>
         </>
       )}
     </footer>

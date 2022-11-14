@@ -18,20 +18,20 @@ const Home = () => {
       <div className="profile">
         <h1>
           Olá
-          <br /> eu sou <span>Maycon</span>,
+          <br /> eu sou <span>Julio Cezar</span>,
           <br />
           Desenvolvedor Web
         </h1>
         <p className="typewriter">
-          Me chamo Maycon Douglas, mas pode me chamar de <span>Mike</span>,
-          tenho 17 anos e sou apaixonado por tecnologia e astronomia
+          Me chamo Julio Cezar, mas pode me chamar de <span>Julio</span>, tenho
+          19 anos e sou apaixonado por tecnologia
         </p>
       </div>
       <div className="links">
         <a id="full" download href={cv}>
           <FiDownload /> Baixar CV
         </a>
-        <a target="_blank" href="https://wa.me/+5584981916377">
+        <a target="_blank" href="https://wa.me/+5548996779522">
           Vamos conversar
         </a>
       </div>
