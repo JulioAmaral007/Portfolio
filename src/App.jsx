@@ -16,7 +16,6 @@ function App() {
       <Home />
       <Skills />
       <Projects />
-      <Certificate />
       <Contacts />
     </div>
   );
