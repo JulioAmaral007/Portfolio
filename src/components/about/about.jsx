@@ -5,12 +5,13 @@ const About = () => {
     <section id="about" className="about">
       <div className="container">
         <h1 id="title">Sobre mim</h1>
-
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
-          harum quasi quo perferendis excepturi sapiente consectetur dignissimos
-          maxime, ducimus impedit eum voluptas nemo quibusdam doloremque
-          voluptates nam doloribus incidunt obcaecati!
+          Hi, I'm Julio Cezar, welcome to my Rocketseat profile. Catarinense, 19
+          years old. Passionate about computing, especially development for
+          websites and designs, with great interest in Front-end development. I
+          show dedication and commitment to all tasks and functions assigned to
+          me, always looking for improvement and daily learning in this future
+          profession which I identify myself more and more.
         </p>
       </div>
     </section>

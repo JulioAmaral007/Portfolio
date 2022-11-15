@@ -1,6 +1,6 @@
-import cfJavascript from "../../utils/imgs/cfJavascript.png";
-import cfAlgoritimo from "../../utils/imgs/cfAlgoritimo.png";
-import cfFrontend from "../../utils/imgs/cfFrontend.png";
+import cfConectar from "../../utils/imgs/certificado-conectar.jpeg";
+import cfFundamentar from "../../utils/imgs/certificado-fundamentar.jpeg";
+import cfEspecializar from "../../utils/imgs/certificado-especializar.jpeg";
 
 import { Slide } from "react-awesome-reveal";
 
@@ -17,31 +17,13 @@ const Certificate = () => {
         <Slide>
           <div className="grid-3">
             <div className="card-certificate">
-              <img src={cfJavascript} alt="" />
-              <a
-                target="_blank"
-                href="https://www.coursera.org/account/accomplishments/certificate/U5XWJAVSUD9G"
-              >
-                VERIFICAR
-              </a>
+              <img src={cfConectar} alt="" />
             </div>
             <div className="card-certificate">
-              <img src={cfAlgoritimo} alt="" />
-              <a
-                target="_blank"
-                href="https://www.freecodecamp.org/certification/maycondouglas/javascript-algorithms-and-data-structures"
-              >
-                VERIFICAR
-              </a>
+              <img src={cfFundamentar} alt="" />
             </div>
             <div className="card-certificate">
-              <img src={cfFrontend} alt="" />
-              <a
-                target="_blank"
-                href="https://www.coursera.org/account/accomplishments/certificate/558MJF7EFXPY"
-              >
-                VERIFICAR
-              </a>
+              <img src={cfEspecializar} alt="" />
             </div>
           </div>
         </Slide>
