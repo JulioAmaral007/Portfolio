@@ -17,7 +17,7 @@ const Skills = () => {
         </Slide>
         <div className="box-grid-2">
           <Slide>
-            <div className="frontend box-skills ">
+            <div className="frontend box-skills">
               <h1>Frontend Development</h1>
               <div className="experience">
                 <div className="html language">
