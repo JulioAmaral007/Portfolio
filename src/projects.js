@@ -1,11 +1,10 @@
 const projects = [
   {
-    img: "https://raw.githubusercontent.com/JulioAmaral007/RocketCopa/main/Desktop.png",
-    title: "RocketCopa",
-    description:
-      "Calendário da Copa é um projeto que mostra os jogos da Copa de 2022.",
-    repositorie: "https://github.com/JulioAmaral007/RocketCopa",
-    deploy: "https://julioamaral007.github.io/RocketCopa/",
+    img: "https://raw.githubusercontent.com/JulioAmaral007/IgniteFeed/main/Desktop.png",
+    title: "IgniteFeed",
+    description: "IgniteFeed.",
+    repositorie: "https://github.com/JulioAmaral007/IgniteFeed",
+    deploy: "https://ignite-feed-cyan.vercel.app/",
   },
   {
     img: "https://raw.githubusercontent.com/JulioAmaral007/RocketPay/main/.github/project.png",
