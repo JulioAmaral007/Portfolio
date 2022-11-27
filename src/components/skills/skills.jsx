@@ -36,7 +36,7 @@ const Skills = () => {
                 <div className="js language">
                   <span>
                     {" "}
-                    <MdOutlineVerified /> JAVASCRIPT
+                    <MdOutlineVerified /> JAVASCRIPT/TYPESCRIPT
                   </span>
                 </div>
                 <div className="sass language">
@@ -56,13 +56,6 @@ const Skills = () => {
                   <span>
                     {" "}
                     <MdOutlineVerified /> TailwindCSS
-                  </span>
-                  <span id="beginner">Beginner</span>
-                </div>
-                <div className="typescript language">
-                  <span>
-                    {" "}
-                    <MdOutlineVerified /> TYPESCRIPT
                   </span>
                   <span id="beginner">Beginner</span>
                 </div>

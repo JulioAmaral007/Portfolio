@@ -43,12 +43,12 @@ const projects = [
     deploy: "",
   },
   {
-    img: "https://raw.githubusercontent.com/JulioAmaral007/To-DoList/main/desktop.png",
+    img: "https://user-images.githubusercontent.com/71772559/178170317-063200c0-4605-491a-80df-421ae6eef864.png",
     title: "To-DoList",
     description:
       "TODO-LIST desenvolvido para checagem de tarefas simples e importantes",
-    repositorie: "https://github.com/JulioAmaral007/To-DoList",
-    deploy: "",
+    repositorie: "https://github.com/JulioAmaral007/ToDo-List",
+    deploy: "https://to-do-list-lovat-two.vercel.app/",
   },
   {
     img: "https://raw.githubusercontent.com/JulioAmaral007/GeradorSenha/main/Desktop.jpeg",
