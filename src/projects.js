@@ -7,12 +7,11 @@ const projects = [
     deploy: "https://ignite-feed-cyan.vercel.app/",
   },
   {
-    img: "https://raw.githubusercontent.com/JulioAmaral007/RocketPay/main/.github/project.png",
-    title: "RocketPay",
-    description:
-      "O Rocketpay é um componente que simula o formulário de preenchimento de cartão de crédito, onde é possível adicionar máscara aos inputs e atualizar elementos HTML via DOM.",
-    repositorie: "https://github.com/JulioAmaral007/RocketPay",
-    deploy: "",
+    img: "https://raw.githubusercontent.com/bfukumori/ignite-timer/main/.github/banner-1.PNG",
+    title: "Countdown-Timer",
+    description: " ignite-timer - Contador para usar com a técnica Pomodoro",
+    repositorie: "https://github.com/JulioAmaral007/CountdownTimer",
+    deploy: "https://vercel.com/julioamaral007/countdown-timer",
   },
   {
     img: "https://raw.githubusercontent.com/JulioAmaral007/Quiz-Prog/main/Desktop.png",
@@ -56,6 +55,14 @@ const projects = [
     description: "Gerador de Senha aleatório",
     repositorie: "https://github.com/JulioAmaral007/GeradorSenha",
     deploy: "https://julioamaral007.github.io/GeradorSenha/",
+  },
+  {
+    img: "https://github.com/bfukumori/ignite-timer/raw/main/.github/banner-1.PNG",
+    title: "Pomodoro",
+    description:
+      "⏳ ignite-timer - Contador para usar com a técnica Pomodoro. Projeto desenvolvido durante o curso ReactJS Ignite da Rocketseat.",
+    repositorie: "https://github.com/JulioAmaral007/CountdownTimer",
+    deploy: "https://countdown-timer-gilt.vercel.app/",
   },
 ];
 export default projects;
