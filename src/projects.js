@@ -11,7 +11,7 @@ const projects = [
     title: "Countdown-Timer",
     description: " ignite-timer - Contador para usar com a técnica Pomodoro",
     repositorie: "https://github.com/JulioAmaral007/CountdownTimer",
-    deploy: "https://vercel.com/julioamaral007/countdown-timer",
+    deploy: "https://countdown-timer-gilt.vercel.app/",
   },
   {
     img: "https://raw.githubusercontent.com/JulioAmaral007/Quiz-Prog/main/Desktop.png",
