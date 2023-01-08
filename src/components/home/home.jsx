@@ -1,8 +1,5 @@
 import { Fade } from "react-awesome-reveal";
-
 import { FiDownload } from "react-icons/fi";
-
-import { typeWrite } from "../typewriter";
 import astronaut from "../../utils/imgs/header-img.svg";
 import cv from "../../utils/cv.pdf";
 
@@ -12,7 +9,7 @@ const Home = () => {
     <section id="#" className="home">
       <div className="shadow-horizontal"></div>
       <Fade>
-        <img id="astronaut" src={astronaut} alt="" srcSet="" />
+        <img id="astronaut" src={astronaut} alt="" />
       </Fade>
 
       <div className="profile">

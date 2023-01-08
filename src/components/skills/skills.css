@@ -1,32 +1,33 @@
 .skills {
-  height: 100vh;
+  margin-top: 7rem;
 }
+
 #title-skills {
   border-bottom: 2px solid rgb(61, 106, 255);
 }
 .skills h1 {
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
   color: #fff;
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 .skills .box-grid-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 15px;
+  gap: 0.9375rem;
 }
 
 .skills .box-grid-2 span {
   color: #fff;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
 }
 
 .skills .box-skills {
   background-color: rgb(29, 29, 29);
-  padding: 5rem 8rem;
+  padding: 2rem;
   height: 30rem;
   border-radius: 12px;
-  gap: 30px;
+  gap: 1.875rem;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -38,7 +39,7 @@
   border: 1px solid rgb(61, 106, 255);
 }
 .skills .box-skills h1 {
-  font-size: 22px;
+  font-size: 1.375rem;
   color: rgb(80, 156, 255);
 }
 .skills .box-skills .experience {
@@ -51,56 +52,40 @@
 .skills .language span {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 0.5rem;
 }
+
 .skills .language svg {
   color: rgb(0, 166, 255);
 }
 
 .skills #beginner {
   color: rgb(169, 168, 168);
-  font-size: 12px;
-  margin-left: 30px;
+  font-size: 0.75rem;
+  margin-left: 1.875rem;
   font-weight: 200;
 }
 /* Media Queries */
 @media (max-width: 1200px) {
-  .skills .box-skills {
-    padding: 3rem 6rem;
+  .skills .box-skills .experience {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3rem;
+    column-gap: 1rem;
   }
-}
-@media (max-width: 1100px) {
+
   .skills .box-skills {
-    padding: 2rem 3rem;
+    width: 25rem;
   }
-}
-@media (max-width: 900px) {
-  .skills .box-skills {
-    padding: 2rem 2rem;
+
+  .skills .language span {
+    font-size: 1rem;
+    gap: 0.2rem;
   }
 }
 @media (max-width: 970px) {
-  .skills {
-    margin-top: 50px;
-  }
   .skills .box-grid-2 {
-    grid-template-columns: 1fr;
-  }
-  .skills .box-skills {
-    padding: 2rem 3rem;
-  }
-}
-@media (max-width: 500px) {
-  .skills .box-skills {
-    padding: 1.25rem 2.25rem;
-  }
-}
-@media (max-width: 440px) {
-  .skills .box-skills {
-    padding: 0.5rem 1rem;
-    height: 25rem;
-  }
-  .skills .box-skills span {
-    font-size: 17px;
+    display: flex;
+    flex-direction: column;
   }
 }

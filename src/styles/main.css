@@ -4,3 +4,58 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+body {
+  background-color: rgb(18, 18, 18);
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+section {
+  height: 100%;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  padding: 0rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(12, 12, 12);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(61, 106, 255);
+  border-radius: 20px;
+}
+/* Media Queries */
+@media (max-width: 1200px) {
+  body {
+    background-size: cover;
+  }
+}
+@media (max-width: 1100px) {
+  .container {
+    padding: 5rem;
+  }
+}
+@media (max-width: 800px) {
+  .container {
+    padding: 1.5rem;
+  }
+}

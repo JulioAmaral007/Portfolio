@@ -59,6 +59,12 @@ const Skills = () => {
                   </span>
                   <span id="beginner">Beginner</span>
                 </div>
+                <div className="styled language">
+                  <span>
+                    {" "}
+                    <MdOutlineVerified /> STYLED-COMPONENTS
+                  </span>
+                </div>
               </div>
             </div>
           </Slide>
@@ -72,6 +78,12 @@ const Skills = () => {
                     <MdOutlineVerified /> NODEJS
                   </span>
                   <span id="beginner">Beginner</span>
+                </div>
+                <div className="c language">
+                  <span>
+                    {" "}
+                    <MdOutlineVerified /> C/C++
+                  </span>
                 </div>
               </div>
             </div>
