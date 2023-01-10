@@ -21,11 +21,12 @@ const projects = [
     deploy: "",
   },
   {
-    img: "https://raw.githubusercontent.com/JulioAmaral007/Financas/main/Desktop.png",
-    title: "Finanças",
-    description: "Sistema desenvolvido para controle de finanças",
-    repositorie: "https://github.com/JulioAmaral007/Financas",
-    deploy: "",
+    img: "https://github.com/JulioAmaral007/Finance/raw/main/public/home.png",
+    title: "Finance",
+    description:
+      "O Finance é uma aplicação simples de controle financeiro, onde você pode cadastrar suas entradas e saídas, e ver o saldo total. Além disso, você pode gerenciar suas transações, em categorias, o que facilita a visualização do seu dinheiro.",
+    repositorie: "https://github.com/JulioAmaral007/Finance",
+    deploy: "https://finance-beige.vercel.app/",
   },
   {
     img: "https://raw.githubusercontent.com/JulioAmaral007/Buscador_CEP/main/desktop.png",
@@ -55,14 +56,6 @@ const projects = [
     description: "Gerador de Senha aleatório",
     repositorie: "https://github.com/JulioAmaral007/GeradorSenha",
     deploy: "https://julioamaral007.github.io/GeradorSenha/",
-  },
-  {
-    img: "https://github.com/bfukumori/ignite-timer/raw/main/.github/banner-1.PNG",
-    title: "Pomodoro",
-    description:
-      "⏳ ignite-timer - Contador para usar com a técnica Pomodoro. Projeto desenvolvido durante o curso ReactJS Ignite da Rocketseat.",
-    repositorie: "https://github.com/JulioAmaral007/CountdownTimer",
-    deploy: "https://countdown-timer-gilt.vercel.app/",
   },
 ];
 export default projects;
