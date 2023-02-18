@@ -29,11 +29,11 @@ const projects = [
     deploy: "https://finance-beige.vercel.app/",
   },
   {
-    img: "https://raw.githubusercontent.com/JulioAmaral007/Buscador_CEP/main/desktop.png",
-    title: "CEP",
-    description: "Buscador de CEP",
-    repositorie: "https://github.com/JulioAmaral007/Buscador_CEP",
-    deploy: "",
+    img: "https://user-images.githubusercontent.com/71772559/178171983-f724d1a7-deb4-4d13-aa92-09e1cac4ec36.png",
+    title: "Coffee-Delivery",
+    description: "Sistema de cafeteria",
+    repositorie: "https://github.com/JulioAmaral007/Coffee-Delivery",
+    deploy: "https://coffee-delivery-tau.vercel.app/",
   },
   {
     img: "https://raw.githubusercontent.com/JulioAmaral007/Weather/main/desktop.png",

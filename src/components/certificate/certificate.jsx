@@ -1,6 +1,8 @@
-import cfConectar from "../../utils/imgs/certificado-conectar.jpeg";
-import cfFundamentar from "../../utils/imgs/certificado-fundamentar.jpeg";
-import cfEspecializar from "../../utils/imgs/certificado-especializar.jpeg";
+import cfJavascript from "../../utils/imgs/javascript.jpeg";
+import cfGit from "../../utils/imgs/git.jpeg";
+import cfClean from "../../utils/imgs/clean-code.jpeg";
+import cfFront from "../../utils/imgs/front.jpeg";
+import cfFigma from "../../utils/imgs/figma.jpeg";
 
 import { Slide } from "react-awesome-reveal";
 
@@ -17,13 +19,19 @@ const Certificate = () => {
         <Slide>
           <div className="grid-3">
             <div className="card-certificate">
-              <img src={cfConectar} alt="" />
+              <img src={cfJavascript} alt="" />
             </div>
             <div className="card-certificate">
-              <img src={cfFundamentar} alt="" />
+              <img src={cfGit} alt="" />
             </div>
             <div className="card-certificate">
-              <img src={cfEspecializar} alt="" />
+              <img src={cfClean} alt="" />
+            </div>
+            <div className="card-certificate">
+              <img src={cfFront} alt="" />
+            </div>
+            <div className="card-certificate">
+              <img src={cfFigma} alt="" />
             </div>
           </div>
         </Slide>
