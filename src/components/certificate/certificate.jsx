@@ -1,6 +1,6 @@
 import cfJavascript from "../../utils/imgs/javascript.jpeg";
 import cfGit from "../../utils/imgs/git.jpeg";
-import cfClean from "../../utils/imgs/clean-code.jpeg";
+import cfClean from "../../utils/imgs/clean.jpeg";
 import cfFront from "../../utils/imgs/front.jpeg";
 import cfFigma from "../../utils/imgs/figma.jpeg";
 
