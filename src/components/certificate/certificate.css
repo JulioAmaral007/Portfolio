@@ -11,7 +11,9 @@
   height: 320px;
 }
 .certificate h1 {
-  margin-bottom: 30px;
+  margin-bottom: 3.125rem;
+  color: #fff;
+  font-size: 2.5rem;
   border-bottom: 2px solid rgb(61, 106, 255);
 }
 .grid-3 {

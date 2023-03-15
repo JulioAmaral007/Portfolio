@@ -1,8 +1,8 @@
-import "./CardProject.css";
-import { FiGithub } from "react-icons/fi";
-import { IoRocketOutline } from "react-icons/io5";
+import { FiGithub } from 'react-icons/fi'
+import { IoRocketOutline } from 'react-icons/io5'
+import './CardProject.css'
 
-const CardProject = ({ img, title, repositorie, deploy }) => {
+export function CardProject({ img, title, repositorie, deploy }) {
   return (
     <div className="card-project">
       <div className="thumb">
@@ -15,17 +15,26 @@ const CardProject = ({ img, title, repositorie, deploy }) => {
 
       <div className="btns">
         <div className="demo button">
-          <a target="_blank" className="button-content" href={deploy}>
+          <a
+            target="_blank"
+            className="button-content"
+            href={deploy}
+            rel="noreferrer"
+          >
             <IoRocketOutline /> DEMO
           </a>
         </div>
         <div className="github button">
-          <a target="_blank" className="button-content" href={repositorie}>
+          <a
+            target="_blank"
+            className="button-content"
+            href={repositorie}
+            rel="noreferrer"
+          >
             <FiGithub /> GITHUB
           </a>
         </div>
       </div>
     </div>
-  );
-};
-export default CardProject;
+  )
+}

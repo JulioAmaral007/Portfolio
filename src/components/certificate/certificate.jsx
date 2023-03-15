@@ -1,19 +1,19 @@
-import cfJavascript from "../../utils/imgs/javascript.jpeg";
-import cfGit from "../../utils/imgs/github.jpeg";
-import cfClean from "../../utils/imgs/clean.jpeg";
-import cfFront from "../../utils/imgs/front.jpeg";
-import cfFigma from "../../utils/imgs/figma.jpeg";
+import cfClean from '../../utils/imgs/clean.jpeg'
+import cfFigma from '../../utils/imgs/figma.jpeg'
+import cfFront from '../../utils/imgs/front.jpeg'
+import cfGit from '../../utils/imgs/github.jpeg'
+import cfJavascript from '../../utils/imgs/javascript.jpeg'
 
-import { Slide } from "react-awesome-reveal";
+import { Slide } from 'react-awesome-reveal'
 
-import "./certificate.css";
+import './certificate.css'
 
-const Certificate = () => {
+export function Certificate() {
   return (
     <section id="certificate" className="certificate">
       <div className="container">
         <Slide>
-          {" "}
+          {' '}
           <h1>CERTIFICADOS</h1>
         </Slide>
         <Slide>
@@ -37,7 +37,5 @@ const Certificate = () => {
         </Slide>
       </div>
     </section>
-  );
-};
-
-export default Certificate;
+  )
+}

@@ -1,23 +1,20 @@
-import Navbar from "./components/navbar/navbar";
-import Home from "./components/home/home";
-import About from "./components/about/about";
-import Skills from "./components/skills/skills";
-import Projects from "./components/projects/projects";
-import Contacts from "./components/contacts/contacts";
-import Certificate from "./components/certificate/certificate";
+import { Certificate } from './components/certificate/certificate'
+import { Contacts } from './components/contacts/contacts'
+import { Home } from './components/home/home'
+import { NavBar } from './components/navbar/navbar'
+import { Projects } from './components/projects/projects'
+import { Skills } from './components/skills/skills'
 
-function App() {
+export function App() {
   return (
     <div className="App">
-      <Navbar />
+      <NavBar />
       <Home />
-      <About />
+      {/* <About /> */}
       <Skills />
       <Projects />
       <Certificate />
       <Contacts />
     </div>
-  );
+  )
 }
-
-export default App;

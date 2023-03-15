@@ -1,14 +1,15 @@
-import "./projects.css";
-import projects from "../../projects";
+import projects from '../../projects'
+import './projects.css'
 
-import CardProject from "./CardProject";
-import { Slide } from "react-awesome-reveal";
-const Projects = () => {
+import { Slide } from 'react-awesome-reveal'
+import { CardProject } from './CardProject'
+
+export function Projects() {
   return (
     <section id="projects" className="projects">
       <div className="container">
         <Slide>
-          <h1 id="title-project">PROJECTS</h1>
+          <h1 id="title-project">PROJETOS</h1>
         </Slide>
         <Slide>
           <div className="box-grid-projects">
@@ -26,6 +27,5 @@ const Projects = () => {
         </Slide>
       </div>
     </section>
-  );
-};
-export default Projects;
+  )
+}

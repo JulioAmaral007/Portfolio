@@ -1,4 +1,4 @@
-import "./about.css";
+import './about.css'
 
 const About = () => {
   return (
@@ -6,15 +6,16 @@ const About = () => {
       <div className="container">
         <h1 id="title">Sobre mim</h1>
         <p>
-          Hi, I'm Julio Cezar, welcome to my Rocketseat profile. Catarinense, 19
-          years old. Passionate about computing, especially development for
-          websites and designs, with great interest in Front-end development. I
-          show dedication and commitment to all tasks and functions assigned to
-          me, always looking for improvement and daily learning in this future
-          profession which I identify myself more and more.
+          Olá, sou Julio Cezar, bem-vindo ao meu perfil da Rocketseat.
+          Catarinense, 19 anos. Apaixonado por computação, especialmente
+          desenvolvimento para sites e designs, com grande interesse em
+          desenvolvimento Front-end. Demonstro dedicação e empenho em todas as
+          tarefas e funções que me são atribuídas, procurando sempre o
+          aperfeiçoamento e a aprendizagem diária nesta futura profissão com a
+          qual me identifico cada vez mais.
         </p>
       </div>
     </section>
-  );
-};
-export default About;
+  )
+}
+export default About
