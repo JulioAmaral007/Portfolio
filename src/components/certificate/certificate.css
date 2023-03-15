@@ -1,3 +1,7 @@
+.certificate{
+  padding-top: 4rem; 
+}
+
 .card-certificate {
   display: flex;
   flex-direction: column;
