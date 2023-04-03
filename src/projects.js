@@ -22,13 +22,6 @@ const projects = [
     deploy: 'https://coffee-delivery-tau.vercel.app/',
   },
   {
-    img: 'https://raw.githubusercontent.com/JulioAmaral007/Weather/main/desktop.png',
-    title: 'Weather',
-    description: 'Um app de previsão de meteorologia',
-    repositorie: 'https://github.com/JulioAmaral007/Weather',
-    deploy: '',
-  },
-  {
     img: 'https://user-images.githubusercontent.com/71772559/178170317-063200c0-4605-491a-80df-421ae6eef864.png',
     title: 'To-DoList',
     description:
