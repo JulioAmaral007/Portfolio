@@ -1,4 +1,5 @@
 import cfClean from '../../utils/imgs/clean.jpeg'
+import cfReact from '../../utils/imgs/cursoReact.png'
 import cfFigma from '../../utils/imgs/figma.jpeg'
 import cfFront from '../../utils/imgs/front.jpeg'
 import cfGit from '../../utils/imgs/github.jpeg'
@@ -13,7 +14,6 @@ export function Certificate() {
     <section id="certificate" className="certificate">
       <div className="container">
         <Slide>
-          {' '}
           <h1>CERTIFICADOS</h1>
         </Slide>
         <Slide>
@@ -32,6 +32,9 @@ export function Certificate() {
             </div>
             <div className="card-certificate">
               <img src={cfFigma} alt="" />
+            </div>
+            <div className="card-certificate">
+              <img src={cfReact} alt="" />
             </div>
           </div>
         </Slide>
