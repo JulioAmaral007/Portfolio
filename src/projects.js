@@ -36,12 +36,5 @@ const projects = [
     repositorie: 'https://github.com/JulioAmaral007/Dashboard',
     deploy: 'https://dashboard-coral-kappa.vercel.app/',
   },
-  {
-    img: 'https://github.com/JulioAmaral007/Kanban/raw/main/assets/bg.png',
-    title: 'Kanban',
-    description: '',
-    repositorie: 'https://github.com/JulioAmaral007/Kanban',
-    deploy: 'https://kanban-xi.vercel.app/',
-  },
 ]
 export default projects
