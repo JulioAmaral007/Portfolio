@@ -36,5 +36,12 @@ const projects = [
     repositorie: 'https://github.com/JulioAmaral007/Dashboard',
     deploy: 'https://dashboard-coral-kappa.vercel.app/',
   },
+  {
+    img: 'https://github.com/JulioAmaral007/E-Commerce/blob/main/public/asset.png',
+    title: 'Página de E-Commerce',
+    description: '',
+    repositorie: 'https://github.com/JulioAmaral007/E-Commerce',
+    deploy: 'https://e-commerce-eight-lyart.vercel.app/',
+  },
 ]
 export default projects
