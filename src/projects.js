@@ -37,7 +37,7 @@ const projects = [
     deploy: 'https://dashboard-coral-kappa.vercel.app/',
   },
   {
-    img: 'https://github.com/JulioAmaral007/E-Commerce/blob/main/public/asset.png',
+    img: 'https://github.com/JulioAmaral007/E-Commerce/blob/main/public/asset.png?raw=true',
     title: 'Página de E-Commerce',
     description: '',
     repositorie: 'https://github.com/JulioAmaral007/E-Commerce',
